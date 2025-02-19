@@ -11,8 +11,9 @@
   "author": "CuteStoryteller",
   "keywords": [
     "opencart",
-    "lib",
-    "puppeteer"
+    "api",
+    "puppeteer",
+    "automation"
   ],
   "bugs": {
     "url": "https://github.com/CuteStoryteller/cartmin/issues"
