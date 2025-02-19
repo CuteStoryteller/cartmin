@@ -1,0 +1,52 @@
+{
+    "1.5": {
+        "paths": {
+            "dashboard": "index.php?route=common/home",
+            "catalog": "index.php?route=catalog/product",
+            "product": "index.php?route=catalog/product/update",
+            "fileManagerFiles": "index.php?route=common/filemanager/files"
+        },
+        "loginSelectors": {
+            "username": "[name='username']",
+            "password": "[name='password']",
+            "btn": ".button"
+        },
+        "catalogSelectors": {
+            "inputModel": "input[name='filter_model']",
+            "tableRows": "table.list tr:not(.filter)",
+            "modelCell": "td:nth-of-type(6)",
+            "linkCell": "td:nth-of-type(10)"
+        },
+        "productPageSelectors": {
+            "tabs": {
+                "general": "#tabs a:nth-of-type(1)",
+                "data": "#tabs a:nth-of-type(2)",
+                "image": "#tabs a:nth-of-type(8)"
+            },
+            "general": {
+                "editor": "#cke_contents_description1 iframe",
+                "editorTextArea": "body"
+            },
+            "data": {
+                "image": "#tab-data tr:nth-of-type(18) img",
+                "uploadBtn": "#tab-data tr:nth-of-type(18) a:first-of-type",
+                "deleteBtn": "#tab-data tr:nth-of-type(18) a:last-of-type"
+            },
+            "image": {
+                "images": "#images img",
+                "uploadBtns": "#images .image a:first-of-type",
+                "deleteBtns": "#images tbody td:last-of-type a",
+                "addBtn": "#images tfoot a"
+            },
+            "saveBtn": ".button"
+        },
+        "fileManagerSelectors": {
+            "frame": "#dialog iframe",
+            "colLeft": "#column-left",
+            "topDir": "#top",
+            "list": "#column-right a",
+            "uploadBtn": "#upload",
+            "closeBtn": ".ui-dialog-titlebar-close"
+        }
+    }
+}

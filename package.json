@@ -1,0 +1,25 @@
+{
+  "name": "cartmin",
+  "version": "1.0.0",
+  "description": "puppeteer-based OpenCart API",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CuteStoryteller/cartmin.git"
+  },
+  "author": "CuteStoryteller",
+  "keywords": [
+    "opencart",
+    "lib",
+    "puppeteer"
+  ],
+  "bugs": {
+    "url": "https://github.com/CuteStoryteller/cartmin/issues"
+  },
+  "homepage": "https://github.com/CuteStoryteller/cartmin#readme",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "puppeteer": "^24.2.1"
+  }
+}
